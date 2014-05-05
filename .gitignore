@@ -1,0 +1,8 @@
+*~
+*.swp
+*.pyc
+.ropeproject/*
+.ropeproject
+res/*.png
+res/*.jpg
+res/*.bmp
