@@ -1,10 +1,10 @@
-##Introdution
+Introdution
 ----------------------
 
 This project named Jarvis which is an inspiration from Iron Man aims at controlling your LINUX system using hand motion, gestures using Jarvis. This was part of my learning during Human Computer Interaction course.  
 
 
-##Requirements
+Requirements
 ------------------------
 
 1. Python
@@ -13,7 +13,7 @@ This project named Jarvis which is an inspiration from Iron Man aims at controll
 4. xprop,xwit,xdotool
 
 
-##Install and configure
+Install and configure
 -----------------------------
 
 1. ./install
@@ -21,13 +21,13 @@ This project named Jarvis which is an inspiration from Iron Man aims at controll
 3. To Add/Edit/Remove gestures Go to Jarvis. File>settings
 
 
-##Uninstall
+Uninstall
 ------------------------
 
 > ~/.jarvis/uninstall<
 
 
-##Things u can do using Jarvis:
+Things you can do using Jarvis:
 ------------------------------------
 
 1. The first thing you can do using Jarvis is control your mouse. You just need a colored object (preferably has color different from its background).
@@ -48,7 +48,7 @@ Open Calculator, File manager, Gedit
 
 You can practically add anything else also. All you need to know is the command which does that and the equivalent of the gesture which you want to assign in the combination of Left->Right, Right->Left, Top->Bottom, Bottom->Top.
 
-##Running:
+How to Run?:
 ----------------------------------
 
 1. Now simply open Jarvis from your Applications menu
@@ -69,7 +69,7 @@ The command corresponding to open gnome terminal is 'gnome-terminal'
 
 4. Fill the details and save it.
 
-##How to use?
+How to use?
 ---------------------------------
 
 We need two different colored objects which are required to run. One the tracker and the other one is the flag!
@@ -88,12 +88,3 @@ Change the min and max values of TRACKER_COLOR and GESTURE_COLOR corresponding t
 By default these are the values:
 TRACKER_COLOR={'MIN':[20,100,100],'MAX':[30,255,255]}
 GESTURE_COLOR={'MIN': [108.0, 100, 10],'MAX': [118.0, 255, 255]}
-
-Thanks for reading this much. Please improve as there is a lot of scope for improvement.
-
-# To do
------------------
-
-1. Add support for more gestures.
-2. Add more functionalities to control system.
-3. Make this product more interactive by adding Speech-Recognition to it side by side with Gesture Control.
